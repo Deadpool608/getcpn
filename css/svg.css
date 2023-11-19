@@ -1,0 +1,315 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;  
+}
+
+.center-text {
+		text-align: center;
+	}
+
+	.attribution {
+		font-size: 90%;
+	}
+
+	.wrap {
+		margin: 0 auto;
+	}
+
+	.clip-svg {
+		width: 0;
+		height: 0;
+	}
+	
+	.polygon-each {
+		padding: 10px;
+		text-align: center;
+	}
+
+	.polygon-each-img-wrap img {
+		margin-bottom: 10px;
+	}
+
+	.polygon-each-img-wrap:hover {
+		background: #eee;
+		-webkit-transition: all 0.3s linear;
+		transition: all 0.3s linear;
+	}
+
+
+	@media only screen and (min-width: 800px) {
+		.polygon-each {
+			display: inline-block;
+			width: 47%;
+			vertical-align: top;
+		}
+
+		.polygon-each img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.polygon-clip-rhombus {
+		-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+		clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+		-webkit-clip-path: url("#polygon-clip-rhombus");
+		clip-path: url("#polygon-clip-rhombus");
+	}
+
+	.polygon-clip-square {
+		-webkit-clip-path: polygon(10% 10%, 90% 10%, 90% 90%, 10% 90%);
+		clip-path: polygon(10% 10%, 90% 10%, 90% 90%, 10% 90%);
+		-webkit-clip-path: url("#polygon-clip-square");
+		clip-path: url("#polygon-clip-square");
+	}
+
+	.polygon-clip-rectangle {
+		-webkit-clip-path: polygon(10% 100%, 10% 0%, 90% 0%, 90% 100%);
+		clip-path: polygon(10% 100%, 10% 0%, 90% 0%, 90% 100%);
+		-webkit-clip-path: url("#polygon-clip-rectangle");
+		clip-path: url("#polygon-clip-rectangle");
+	}
+
+	.polygon-clip-rhomboid {
+		-webkit-clip-path: polygon(0% 100%, 30% 0%, 100% 0%, 70% 100%);
+		clip-path: polygon(0% 100%, 30% 0%, 100% 0%, 70% 100%);
+		-webkit-clip-path: url("#polygon-clip-rhomboid");
+		clip-path: url("#polygon-clip-rhomboid");
+	}
+
+	.polygon-clip-kite {
+		-webkit-clip-path: polygon(50% 0%, 100% 30%, 50% 100%, 0% 30%);
+		clip-path: polygon(50% 0%, 100% 30%, 50% 100%, 0% 30%);
+		-webkit-clip-path: url("#polygon-clip-kite");
+		clip-path: url("#polygon-clip-kite");
+	}
+
+	.polygon-clip-trapezoid {
+		-webkit-clip-path: polygon(30% 100%, 30% 0%, 60% 0%, 100% 100%);
+		clip-path: polygon(30% 100%, 30% 0%, 60% 0%, 100% 100%);
+		-webkit-clip-path: url("#polygon-clip-trapezoid");
+		clip-path: url("#polygon-clip-trapezoid");
+	}
+
+	.polygon-clip-trapezoid-isosceles {
+		-webkit-clip-path: polygon(0% 100%, 30% 0%, 70% 0%, 100% 100%);
+		clip-path: polygon(0% 100%, 30% 0%, 70% 0%, 100% 100%);
+		-webkit-clip-path: url("#polygon-clip-trapezoid-isosceles");
+		clip-path: url("#polygon-clip-trapezoid-isosceles");
+	}
+
+	.polygon-clip-triangle-equilateral {
+		-webkit-clip-path: polygon(0% 87%, 50% 0%, 50% 0%, 100% 87%);
+		clip-path: polygon(0% 87%, 50% 0%, 50% 0%, 100% 87%);
+		-webkit-clip-path: url("#polygon-clip-triangle-equilateral");
+		clip-path: url("#polygon-clip-triangle-equilateral");
+	}
+
+	.polygon-clip-triangle-isosceles {
+		-webkit-clip-path: polygon(0% 100%, 50% 0%, 50% 0%, 100% 100%);
+		clip-path: polygon(0% 100%, 50% 0%, 50% 0%, 100% 100%);
+		-webkit-clip-path: url("#polygon-clip-triangle-isosceles");
+		clip-path: url("#polygon-clip-triangle-isosceles");
+	}
+
+	.polygon-clip-triangle-scalene {
+		-webkit-clip-path: polygon(20% 70%, 50% 0%, 50% 0%, 100% 100%);
+		clip-path: polygon(20% 70%, 50% 0%, 50% 0%, 100% 100%);
+		-webkit-clip-path: url("#polygon-clip-triangle-scalene");
+		clip-path: url("#polygon-clip-triangle-scalene");
+	}
+
+	.polygon-clip-triangle-right {
+		-webkit-clip-path: polygon(41% 100%, 41% 0%, 100% 100%, 100% 100%);
+		clip-path: polygon(41% 100%, 41% 0%, 100% 100%, 100% 100%);
+		-webkit-clip-path: url("#polygon-clip-triangle-right");
+		clip-path: url("#polygon-clip-triangle-right");
+	}
+
+	.polygon-clip-pentagon {
+		-webkit-clip-path: polygon(50% 0%, 100% 40%, 80% 100%, 20% 100%, 0% 40%);
+		clip-path: polygon(50% 0%, 100% 40%, 80% 100%, 20% 100%, 0% 40%);
+		-webkit-clip-path: url("#polygon-clip-pentagon");
+		clip-path: url("#polygon-clip-pentagon");
+	}
+
+	.polygon-clip-hexagon {
+		-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+		clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+		-webkit-clip-path: url("#polygon-clip-hexagon");
+		clip-path: url("#polygon-clip-hexagon");
+	}
+
+	.polygon-clip-heptagon {
+		-webkit-clip-path: polygon(50% 0, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0 60%, 10% 20%);
+		clip-path: polygon(50% 0, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0 60%, 10% 20%);
+		-webkit-clip-path: url("#polygon-clip-heptagon");
+		clip-path: url("#polygon-clip-heptagon");
+	}
+
+	.polygon-clip-octagon {
+		-webkit-clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+		clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+		-webkit-clip-path: url("#polygon-clip-octagon");
+		clip-path: url("#polygon-clip-octagon");
+	}
+
+	.polygon-clip-star {
+		-webkit-clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+		clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+		-webkit-clip-path: url("#polygon-clip-star");
+		clip-path: url("#polygon-clip-star");
+	}
+
+
+
+
+
+
+
+
+.center-text {
+  text-align: center;
+}
+
+.clip-svg {
+  width: 0;
+  height: 0;
+}
+
+.clip-wrap {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.clip-each {
+  width: 260px;
+  height: 300px;
+  position: relative;
+}
+
+.clip-each:after {
+  content: "";
+  position: absolute;
+  background: #fff;
+}
+
+.clip-each, .clip-each:after {
+  -webkit-clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+  clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+  clip-path: url("#octagon-clip");
+}
+
+.border-style-thin {
+  background-color: #639;
+  background-color: rebeccaPurple;
+}
+
+.border-style-thin:after {	
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+}
+
+.border-style-gradient {
+  background: -webkit-linear-gradient(left, #ba59a6 0%, #69aed8 50%, #1c12a8 100%);
+  background: linear-gradient(to right, #ba59a6 0%, #69aed8 50%, #1c12a8 100%);
+}
+
+.border-style-gradient:after {
+  top: 14px;
+  left: 14px;
+  right: 14px;
+  bottom: 14px;
+}
+
+.box-shadow-inset {	
+  background-color: #000; /* IE 8 fallback */
+  background-color: rgba(0,0,0,0.15);
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.box-shadow-inset:after {	
+  background: #fff;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+}
+
+.path
+{
+	stroke="#000000";
+	stroke-dasharray: 20;
+}
+.polygon-each-img-wrap:hover
+{
+	background: none;
+}
+.polygon-each-img-wrap .polygon-clip-triangle-isosceles
+{
+	transition:all .5s ease-in-out;
+	transform:translateY(30px);
+}
+.polygon-each-img-wrap:hover .polygon-clip-triangle-isosceles
+{
+	transform:translateY(0px);
+}
+.polygon-clip-triangle-isosceles img
+{
+	transition:all 1s;
+}
+.polygon-clip-triangle-isosceles:hover img
+{
+	transform: translate3d(-40px,-20px,0px);
+}
+body
+{
+	background: red;
+}
+
+
+
+.hex {
+  cursor: pointer;
+ fill:#fff;
+  fill-opacity:0;
+  stroke: #ccc;
+  stroke-width: 1;
+  stroke-dasharray: 4;
+}
+.svg-hexagon
+{
+	width:310px;
+	height:350px;
+
+}
+.hexagon
+{
+	fill:transparent;
+	cursor: pointer;
+  stroke: orange;
+  stroke-width: 3;
+}
+.svg-triangle-dotted
+{
+	position: absolute;top:28px;
+	left:28px;
+}
+.svg-triangle-container
+{
+	width:256px;
+	padding:0;
+	position: absolute;
+	top:28px;
+	left: 28px;
+
+}
