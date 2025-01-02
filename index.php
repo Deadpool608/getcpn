@@ -114,7 +114,7 @@ include('header.php');
       </div>
    </div>
 </section>
-<!-- End Section Why Choose Us -->
+<!-- End of Section Why Choose Us -->
 <section class="padding bg-grey">
    <div class="container">
       <div class="row">
@@ -153,7 +153,7 @@ include('header.php');
                      <p>
                         Looking for a great deal on your next purchase? You can find it on our platform! We offer a wide
                         variety of coupons from a variety of retailers, so you're sure to find something that you can
-                        use. Whether you're looking for a discount on clothes, electronics, or home goods, we have you
+                        use for sure. Whether you're looking for a discount on clothes, electronics, or home goods, we have you
                         covered.
 
                         Our coupons are always up-to-date and verified, so you can be sure that you're getting a
