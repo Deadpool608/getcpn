@@ -51,8 +51,8 @@ move_uploaded_file($image['tmp_name'], 'images/imguploads/' . $filename);
  <a href="coupons.php">View Records</a> 
 <div>
 <h1>Update Record</h1>
-<form name="form" method="post"> 
 <input type="hidden" name="new" value="1" />
+<form name="form" method="post"> 
 <p><input type="text" name="name" placeholder="Enter Name" required value="<?php echo $row['name'];?>" /></p>
 
 Select image to upload:
